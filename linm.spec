@@ -27,7 +27,7 @@ LinM egy vizuális fájlkezelő. Lehetőségek gazdag tárházát nyújtja ez a
 teljes-képernyős, szöveges módú program, amellyel másolni, mozgatni és
 törölni tudsz fájlokat és egész könyvtár-struktúrákat, kereshetsz
 fájlokat és futtathatsz parancsokat egy alhéjban. LinM képes FTP-hez
-és SFTP-hez csatlakozin, tar és zip fájlokba nézni, valamint RPM és
+és SFTP-hez csatlakozni, tar és zip fájlokba nézni, valamint RPM és
 DEB csomagokba.
 
 %prep
