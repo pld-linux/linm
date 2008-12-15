@@ -2,7 +2,7 @@ Summary:	LinM is a visual file manager
 Summary(hu.UTF-8):	LinM egy vizuális fájlkezelő
 Name:		linm
 Version:	0.8.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Shells
 Source0:	http://kldp.net/frs/download.php/4508/%{name}_%{version}-1.tar.gz
@@ -45,10 +45,12 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+%find_lang %{name}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
@@ -56,5 +58,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_desktopdir}/LinM.desktop
 %{_pixmapsdir}/linm.xpm
 %{_sysconfdir}/linm/*
-%{_datadir}/locale/*
 %{_libdir}/*
