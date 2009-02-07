@@ -33,12 +33,12 @@ DEB csomagokba.
 
 %description -l pl.UTF_8
 LinM to graficzny zarządca plików. Jest to posiadająca dużą
-funkcjonalność działająca w trybie tekstowym pełnoekranowa aplikacja
-pozwalająca na kopiowanie, przenoszenie i usuwanie plików czy drzew
-katalogów, wyszukiwania plików i uruchamianie poleceń w podpowłoce.
-Jedną z lepszych funkcjonalności LinM jest wsparcie dla FTP, SFTP czy
-możliwość podglądu plików tar, zip, czy alz jak również pakietów w
-formatach RPM czy DEB.
+funkcjonalność, działająca w trybie tekstowym pełnoekranowa aplikacja
+pozwalająca na kopiowanie, przenoszenie i usuwanie plików oraz drzew
+katalogów, wyszukiwanie plików i uruchamianie poleceń w podpowłoce.
+Jedne z najlepszych funkcji LinM to obsługa protokołów FTP i SFTP oraz
+możliwość podglądu plików tar, zip czy alz, jak również pakietów w
+formatach RPM i DEB.
 
 %prep
 %setup -q
