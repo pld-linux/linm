@@ -1,5 +1,6 @@
 Summary:	LinM is a visual file manager
 Summary(hu.UTF-8):	LinM egy vizuális fájlkezelő
+Summary(pl.UTF-8):	Tekstowy zarządca plików
 Name:		linm
 Version:	0.8.1
 Release:	2
@@ -30,9 +31,17 @@ fájlokat és futtathatsz parancsokat egy alhéjban. LinM képes FTP-hez
 és SFTP-hez csatlakozni, tar és zip fájlokba nézni, valamint RPM és
 DEB csomagokba.
 
+%description -l pl.UTF_8
+LinM to graficzny zarządca plików. Jest to posiadająca dużą
+funkcjonalność działająca w trybie tekstowym pełnoekranowa aplikacja
+pozwalająca na kopiowanie, przenoszenie i usuwanie plików czy drzew
+katalogów, wyszukiwania plików i uruchamianie poleceń w podpowłoce.
+Jedną z lepszych funkcjonalności LinM jest wsparcie dla FTP, SFTP czy
+możliwość podglądu plików tar, zip, czy alz jak również pakietów w
+formatach RPM czy DEB.
+
 %prep
 %setup -q
-
 
 %build
 %configure \
