@@ -1,0 +1,8 @@
+--- linm-0.8.1/debian/LinM.desktop~	2007-11-24 14:03:30.000000000 +0100
++++ linm-0.8.1/debian/LinM.desktop	2010-05-12 13:12:48.549388062 +0200
+@@ -11,4 +11,4 @@
+ StartupNotify=true
+ Terminal=true
+ Type=Application
+-Categories=Application;Utility;
++Categories=Application;Utility;FileManager;

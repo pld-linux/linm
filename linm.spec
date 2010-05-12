@@ -3,11 +3,12 @@ Summary(hu.UTF-8):	LinM egy vizuális fájlkezelő
 Summary(pl.UTF-8):	Tekstowy zarządca plików
 Name:		linm
 Version:	0.8.1
-Release:	5
+Release:	6
 License:	GPL
 Group:		Applications/Shells
 Source0:	http://kldp.net/frs/download.php/4508/%{name}_%{version}-1.tar.gz
 # Source0-md5:	10af8ec824b3e75d3602dad66d073655
+Patch0:		%{name}-desktop.patch
 URL:		http://kldp.net/projects/mls
 # if you want to use samba
 # BuildRequires:	samba-devel
@@ -42,6 +43,7 @@ formatach RPM i DEB.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure \
