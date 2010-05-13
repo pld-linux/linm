@@ -12,8 +12,10 @@ Patch0:		%{name}-desktop.patch
 URL:		http://kldp.net/projects/mls
 # if you want to use samba
 # BuildRequires:	samba-devel
+BuildRequires:	libstdc++-devel
 BuildRequires:	ncurses-devel
 BuildRequires:	openssl-devel
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
