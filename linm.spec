@@ -34,7 +34,7 @@ fájlokat és futtathatsz parancsokat egy alhéjban. LinM képes FTP-hez
 és SFTP-hez csatlakozni, tar és zip fájlokba nézni, valamint RPM és
 DEB csomagokba.
 
-%description -l pl.UTF_8
+%description -l pl.UTF-8
 LinM to graficzny zarządca plików. Jest to posiadająca dużą
 funkcjonalność, działająca w trybie tekstowym pełnoekranowa aplikacja
 pozwalająca na kopiowanie, przenoszenie i usuwanie plików oraz drzew
